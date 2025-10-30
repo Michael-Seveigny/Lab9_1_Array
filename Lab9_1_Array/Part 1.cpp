@@ -51,4 +51,11 @@ int main(void) {
 	}
 	cout << endl;
 
+	// Cout reversed order
+	cout << "Reversed order: ";
+	for (int i = Size - 1; i >= 0; i--) {
+		cout << arr[i] << " ";
+	}
+	cout << endl;
+
 }
