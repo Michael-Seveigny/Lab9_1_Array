@@ -10,4 +10,5 @@ and then prints five lines of output, containing:
 • All elements in reverse order.
 • Only the first and last element.
 */
+hello
 
