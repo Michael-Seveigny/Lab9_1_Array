@@ -10,5 +10,29 @@ and then prints five lines of output, containing:
 • All elements in reverse order.
 • Only the first and last element.
 */
-hello
+#include <iostream>
+#include <cstdlib>
+#include <ctime>
+using namespace std;
 
+int main(void) {
+	// Declare constant and array
+	const int Size = 10;
+	int arr[Size];
+
+	// Seed the random number generator
+	srand((unsigned)time(0));
+
+	// Initialize array with ten 4-digit numbers
+	for (int i = 0; i < Size; i++) {
+		arr[i] = rand() % 9000+1000; // Generates random 4-digit integer
+	}
+
+	// Cout every random number in order
+	cout << "The random integers: ";
+	for (int i = 0; i < Size; i++) {
+		cout << arr[i] << " ";
+	}
+	cout << endl;
+
+}
