@@ -61,3 +61,4 @@ int main(void) {
 	// Cout first and last elements
 	cout << "First and last: " << arr[0] << " " << arr[Size - 1] << endl;
 }
+
