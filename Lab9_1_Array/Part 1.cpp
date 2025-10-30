@@ -42,4 +42,13 @@ int main(void) {
 	}
 	cout << endl;
 
+	// Cout even numbers
+	cout << "Even values: ";
+	for (int i = 0; i < Size; i++) {
+		if (arr[i] % 2 == 0) {
+			cout << arr[i] << " ";
+		}
+	}
+	cout << endl;
+
 }
