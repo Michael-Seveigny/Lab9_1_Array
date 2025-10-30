@@ -35,4 +35,11 @@ int main(void) {
 	}
 	cout << endl;
 
+	// Cout even index numbers
+	cout << "Even indices: ";
+	for (int i = 0; i < Size; i += 2) {
+		cout << arr[i] << " ";
+	}
+	cout << endl;
+
 }
